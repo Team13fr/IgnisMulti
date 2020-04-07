@@ -13,7 +13,18 @@ The translations tool is available directly on Pipas APP, a multiplatform applic
 - You just have to start the game with the button **Launch Ygopro**!
 ### Manual installation
 - Edit the file **configs.json** with a program like Notepad++ in directory **config**
-- Add on line 31
+- Add after:
+```
+{
+      "url": "https://github.com/ProjectIgnis/Puzzles",
+      "repo_name": "Project Ignis puzzles",
+      "repo_path": "./puzzles/Canon collection",
+      "has_core": false,
+      "should_update": true,
+      "should_read": true
+    },
+```
+
 ```json
 {
       "url": "https://github.com/Team13fr/IgnisMulti",
@@ -90,14 +101,13 @@ exemple :
       "roomlistport": 7922
     },
     {
-      "name": "NA Pacific (Casual)",
-      "address": "73.240.71.103",
+      "name": "US West (Casual)",
+      "address": "146.71.79.166",
       "duelport": 7911,
-      "roomaddress": "73.240.71.103",
+      "roomaddress": "146.71.79.166",
       "roomlistport": 7922
     }
   ],
   "posixPathExtension": "/usr/local/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands"
 }
 ```
-
