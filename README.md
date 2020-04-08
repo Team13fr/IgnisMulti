@@ -10,19 +10,23 @@ The translations tool is available directly on Pipas APP, a multiplatform applic
 - Choose your language at the top right.
 - Go to the **Ygopro Multi** menu.
 - With the button **Browse** select the  EDOPro.exe in its installation folder.
-- You just have to start the game with the button **Launch Ygopro**!
+- Start the game with the button **Launch Ygopro**!
+
+### At first launch
+- Wait for the Multilanguage download update to finish. (Progress at the top left in the "**Repositories**" tab)
+[![Repositories](https://puu.sh/FuSmK/479079320d.png)](#)
+- **Relaunch** EDOPro and select your language in the options. (shortcut : **CTRL + O**)
+
 ### Manual installation
+### Easy way (not recommended) :
+ - Replace the file **configs.json** file with this file : [Download](https://drive.google.com/drive/folders/1clwKhk4AEbB82l_qwlsbn5WnzCEkUObo?usp=sharing)
+
+#### Advanced user (recommend) : 
 - Edit the file **configs.json** with a program like Notepad++ in directory **config**
-- Add after:
+- Add after :
 ```
 {
-      "url": "https://github.com/ProjectIgnis/Puzzles",
-      "repo_name": "Project Ignis puzzles",
-      "repo_path": "./puzzles/Canon collection",
-      "has_core": false,
-      "should_update": true,
-      "should_read": true
-    },
+  "repos": [
 ```
 
 ```json
@@ -34,12 +38,21 @@ The translations tool is available directly on Pipas APP, a multiplatform applic
       "data_path": "",
       "should_update": true,
       "should_read": true
-    }
+    },
 ```
 exemple :
 ```json
 {
   "repos": [
+	{
+      "url": "https://github.com/Team13fr/IgnisMulti",
+      "repo_name": "Team13.fr Multilanguage updates",
+      "repo_path": "./config/languages",
+      "has_core": false,
+      "data_path": "",
+      "should_update": true,
+      "should_read": true
+    },
     {
       "url": "https://github.com/ProjectIgnis/DeltaHopeHarbinger",
       "repo_name": "Project Ignis updates",
@@ -65,15 +78,6 @@ exemple :
       "repo_name": "Project Ignis puzzles",
       "repo_path": "./puzzles/Canon collection",
       "has_core": false,
-      "should_update": true,
-      "should_read": true
-    },
-    {
-      "url": "https://github.com/Team13fr/IgnisMulti",
-      "repo_name": "Team13.fr Multilanguage updates",
-      "repo_path": "./config/languages",
-      "has_core": false,
-      "data_path": "",
       "should_update": true,
       "should_read": true
     }
