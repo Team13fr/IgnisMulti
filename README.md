@@ -18,7 +18,7 @@ The translations tool is available directly on Pipas APP, a multiplatform applic
 - **Relaunch** EDOPro and select your language in the options. (shortcut : **CTRL + O**)
 
 ### Manual installation
-### Easy way (not recommended) :
+#### Easy way (not recommended) :
  - Replace the file **configs.json** file with this file : [Download](https://drive.google.com/drive/folders/1clwKhk4AEbB82l_qwlsbn5WnzCEkUObo?usp=sharing)
 
 #### Advanced user (recommend) : 
@@ -115,3 +115,6 @@ exemple :
   "posixPathExtension": "/usr/local/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands"
 }
 ```
+
+### Credit :
+- Deutsh (stings.conf) : venom1510, NiklasYGO, DekuNeko (Discord Names)
