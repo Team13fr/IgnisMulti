@@ -138,7 +138,8 @@ exemple :
 
 ### Credit :
 
-- Deutcsh (stings.conf) : NiklasYGO, venom1510, DekuNeko, Mario-Fan
-- Español (strings.conf) : Hel (based on the work of LucienAclantis)
+- Deutcsh (strings.conf) : NiklasYGO, venom1510, DekuNeko, Mario-Fan
+- Español (strings.conf) : Icematoro, DyXel
 - Français (strings.conf) : Hel (based on the work of LucienAclantis)
 - Italiano (strings.conf) : edo9300, Magistralium
+- Português (strings.conf) : NaimSantos, Yamato
