@@ -17,7 +17,7 @@
 
 ### Credit :
 
-- Deutsch (strings.conf) : NiklasYGO, venom1510, DekuNeko, Mario-Fan
+- Deutsch (strings.conf) : NiklasSTG, venom1510, DekuNeko, Mario-Fan
 - Español (strings.conf) : Icematoro, DyXel
 - Français (strings.conf) : Hel (based on the work of LucienAclantis)
 - Italiano (strings.conf) : edo9300, Magistralium
